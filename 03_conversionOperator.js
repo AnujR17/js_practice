@@ -1,4 +1,5 @@
 // typeof can be written by any method
+
 let marks = "12"
 // typeof of let variable
 console.log(typeof marks)
@@ -56,3 +57,49 @@ console.log(marksAsNumber)
     console.log(typeof marksAsNumber);
     console.log(marksAsNumber)    
 }
+
+//----------------------------------Operators-----------------------------------------------------
+let value = 7
+let negValue = -value
+console.log(negValue)
+
+// arithmetic operator 
+let a = 6
+let b = 2
+console.log(a+b) //addition
+console.log(a-b) //subtraction
+console.log(a * b) // multiplication
+console.log(a/b) // division
+console.log(a**b) // power
+console.log(a%b) // modulus (remainder)
+
+
+//conversion
+let str1 = "Hello"
+let str2 = " World"
+let str3 = str1 + str2; 
+console.log(str3)
+console.log("1" +2)
+console.log(1 + "2") 
+console.log("1" + " 2") 
+console.log(1 + 3+ " 2"); // Numbers add prior to concatination 
+console.log(true) // prints true
+console.log(+true) // prints 1 
+console.log (+"") // prints 0 as the empty string in Number returns 0
+
+let num1 ,num2 , num3;
+num1 = num2 = num3 = 2 + 2; // not good practice writing this way
+
+let gameCounter = 100;
+gameCounter++;
+++gameCounter;  
+console.log(gameCounter)
+
+// postfix and prefix
+let a1 = 7
+let b1 = a1++
+console.log(a1++ + " " + --b1)
+console.log(a1++ + " " + --b1)
+console.log(a1)
+
+
