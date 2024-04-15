@@ -6,6 +6,8 @@ let city = "New York"
 
 console.log(`${Name} is a ${age} year old ${job} living in ${city}`)
 const techTag = new String("JavaScript")
+// printing the techTag variable
+console.log(techTag)
 
 // here the techTag works as a object than String variable
 console.log(typeof(techTag))
