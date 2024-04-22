@@ -50,3 +50,10 @@ console.log(c1);
 trial();
 
 // const cant be reassigned but its properties can be modified
+
+// this result a assignment to constant variable.
+const b1 = 1;
+for (let i = 0; i < 5; i++) {
+  console.log(`Iteration ${i}: ${b1++}`);
+}
+console.log(b1);
